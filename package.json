@@ -1,0 +1,19 @@
+{
+  "name": "proto-site",
+  "version": "1.0.0",
+  "description": "Template for prototyping",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "python -m SimpleHTTPServer 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Opus1no2/proto-site.git"
+  },
+  "author": "Travis Tillotson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Opus1no2/proto-site/issues"
+  },
+  "homepage": "https://github.com/Opus1no2/proto-site#readme"
+}
