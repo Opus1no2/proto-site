@@ -4,7 +4,7 @@
   "description": "Template for prototyping",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "python -m SimpleHTTPServer 8000"
+    "serve": "cd src && python -m SimpleHTTPServer 8000"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,9 @@
     "karma-chrome-launcher": "^2.2.0",
     "karma-qunit": "^2.1.0",
     "karma-sinon": "^1.0.5",
+    "karma-sinon-stub-promise": "^1.0.0",
     "qunit": "^2.6.1",
-    "sinon": "^5.1.0"
+    "sinon": "^5.1.0",
+    "sinon-stub-promise": "^4.0.0"
   }
 }
